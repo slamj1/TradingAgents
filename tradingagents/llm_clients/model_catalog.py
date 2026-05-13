@@ -107,11 +107,17 @@ MODEL_OPTIONS: ProviderModeOptions = {
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
             ("GPT-OSS:latest (20B, local)", "gpt-oss:latest"),
             ("GLM-4.7-Flash:latest (30B, local)", "glm-4.7-flash:latest"),
+            ("gpt-oss:120b (120B, local)", "gpt-oss:120b"),
+            ("qwen3.6:35b-a3b-bf16  (35B, local)", "qwen3.6:35b-a3b-bf16"),
+            ("qwen3.5:122b  (122B, local)", "qwen3.5:122b"),
         ],
         "deep": [
             ("GLM-4.7-Flash:latest (30B, local)", "glm-4.7-flash:latest"),
             ("GPT-OSS:latest (20B, local)", "gpt-oss:latest"),
             ("Qwen3:latest (8B, local)", "qwen3:latest"),
+            ("gpt-oss:120b (120B, local)", "gpt-oss:120b"),
+            ("qwen3.6:35b-a3b-bf16  (35B, local)", "qwen3.6:35b-a3b-bf16"),
+            ("qwen3.5:122b  (122B, local)", "qwen3.5:122b"),
         ],
     },
 }
